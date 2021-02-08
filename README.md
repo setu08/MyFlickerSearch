@@ -7,7 +7,7 @@ https://flickrsearch-8a0f8.web.app
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files. Make sure you have nodejs and angular cli available in your system.
+Run `npm install` and then `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files. Make sure you have nodejs and angular cli available in your system.
 
 ## Code scaffolding
 
