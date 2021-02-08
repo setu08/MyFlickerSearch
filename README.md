@@ -1,6 +1,13 @@
 # FlickrSearch
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.3. Search keyword has been implemented using Debounce to reduce API calls. Lightbox added to show Image when clicked.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.3.
+1. Using Debounce to avoid multiple api calls when searched.
+2. Added lightbox to open image popup
+3. Followed proper obeject oriented code
+4. Used MVC architecture.
+5. Created services to communicate stream of data(dependency Injcetion)
+6. Using ngx-cookies service to show recent search results.
+7. Using ngx-infinite scroll to scroll infinite.
 
 ## Live Demo FireBase
 https://flickrsearch-8a0f8.web.app
