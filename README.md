@@ -1,10 +1,13 @@
 # FlickrSearch
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.3.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.0.3. Search keyword has been implemented using Debounce to reduce API calls. Lightbox added to show Image when clicked.
+
+## Live Demo FireBase
+https://flickrsearch-8a0f8.web.app
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files. Make sure you have nodejs and angular cli available in your system.
 
 ## Code scaffolding
 
