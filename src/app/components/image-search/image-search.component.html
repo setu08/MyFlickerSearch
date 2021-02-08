@@ -1,0 +1,27 @@
+<div class="container">
+  <div class= "imageSearchHeader">
+  <h1 class="text-center">Flickr Search</h1>
+  <div class="form-group">
+    <input type="search" class="form-control" (keyup)="searchImage($event)">
+    <span><h5 class="text-center">Recent Searches</h5></span>
+    <span><a (click) = "onRecentSearch(recentSearch)" ><h5 class="text-center">{{recentSearch}}</h5></a></span>
+  </div>
+</div>
+
+  <div class="row">
+    <div class="col-sm-12 col-md-6 col-lg-4 p-3" *ngFor="let image of imageResponseResult">
+      <div class="card">
+        <a href="{{image.url}}_b.jpg" data-lightbox="image" data-title="{{image.title}}">
+          <img class="ui bordered small image" src="{{image.url}}_m.jpg" alt="Image could not be loaded">
+      </a>
+      </div>
+    </div>
+  </div>
+  <div
+    class="search-results"
+    infiniteScroll
+    [infiniteScrollDistance]="2"
+    [infiniteScrollThrottle]="50"
+    (scrolled)="onScroll()">
+  </div>
+</div>
